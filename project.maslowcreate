@@ -27,9 +27,34 @@
             "y": 0.5,
             "uniqueID": 135157,
             "ioValues": []
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.3988533988533989,
+            "y": 0.5851648351648352,
+            "uniqueID": 945579,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 437103
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 437103,
+            "ap2ID": 945579
+        }
+    ],
     "fileTypeVersion": 1,
     "simplify": false,
     "unitsIndex": 0,
