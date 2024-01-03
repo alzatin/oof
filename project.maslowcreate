@@ -53,10 +53,15 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.5799163179916318,
-            "y": 0.34065934065934067,
+            "x": 0.5347280334728034,
+            "y": 0.2747252747252747,
             "uniqueID": 378890,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "name",
+                    "ioValue": 15
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -81,7 +86,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 15
                         }
                     ]
                 },
@@ -101,6 +106,14 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "name",
+                    "x": 0.013333333333333334,
+                    "y": 0.6043956043956044,
+                    "uniqueID": 686228,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -117,6 +130,13 @@
                     "ap2Primary": false,
                     "ap1ID": 887074,
                     "ap2ID": 916041
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 686228,
+                    "ap2ID": 165276
                 }
             ],
             "fileTypeVersion": 1,
