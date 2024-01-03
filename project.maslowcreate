@@ -44,6 +44,20 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.6251046025104603,
+            "y": 0.48626373626373626,
+            "uniqueID": 378890,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "simplify": false,
+            "unitsIndex": 0
         }
     ],
     "allConnectors": [
